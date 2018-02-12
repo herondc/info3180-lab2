@@ -1,3 +1,44 @@
 body {
     padding-top: 5rem;
 }
+
+.pic{
+    margin: 20px;
+    
+    float:left;
+    border-style: solid;
+    border-style:double;
+    border-color: #E6EAEB;
+    border-width:3px;
+    width:160px;
+    height:210px;
+    padding:2px;
+}
+
+
+#r{background-color:#E6EAEB;
+    height:25px;
+    padding-left:10px;
+}
+
+#data { 
+       margin:9.5px;
+       height:150px;
+        width:280px;
+       border-top: solid #E6EAEB;
+       border-bottom:solid #E6EAEB;
+       border-width:.5px;
+}
+.typ{
+    margin:10px;
+    height:35px;
+}
+.xyx{
+
+    float:left;
+    border-style: solid;
+    border-color: #E6EAEB;
+    border-width:2px;
+    width:320px;
+    height:300px;
+}

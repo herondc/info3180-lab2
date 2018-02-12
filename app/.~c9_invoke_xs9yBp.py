@@ -7,7 +7,7 @@ This file creates your application.
 
 from app import app
 from flask import render_template, request, redirect, url_for, flash
-from datetime import datetime
+import time
 
 
 ###
@@ -24,18 +24,11 @@ def home():
 def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
-    
-    
-    
-def format_date_joined():
-    i = datetime.now()
-    return i.strftime('%B %d')
-    
 
 @app.route('/profile')
 def profile():
     """Render website's profile page."""
-    return render_template('profile.html', date = format_date_joined())
+    return render_template('profile.html')
 
 
 ###
@@ -67,7 +60,8 @@ def page_not_found(error):
     return render_template('404.html'), 404
 
 
-
+def format_date_joined():
+    return "jokey"
 
 
 if __name__ == '__main__':
