@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     padding-top: 5rem;
 }
@@ -17,3 +22,25 @@ body {
        border-width:.5px;
 }
  
+.container{
+    text-align: center;
+    
+    
+}
+.topdiv{
+    background-color: lime;
+    
+ 
+ border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 15px; padding-bottom:  15px;
+  
+  margin-bottom: -20px;
+ 
+}
+.bottomdiv{
+    background-color: grey;
+     
+    border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
