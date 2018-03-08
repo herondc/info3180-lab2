@@ -23,13 +23,13 @@ def home():
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html', name="Mary Jane")
+    return render_template('about.html', name="Heron Chambers")
     
     
     
 def format_date_joined():
     i = datetime.now()
-    return i.strftime('%B %d')
+    return i.strftime('%B %Y')
     
 
 @app.route('/profile')

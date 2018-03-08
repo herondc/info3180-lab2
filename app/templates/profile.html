@@ -6,16 +6,25 @@
 
 
 <!--<div class="pic"><img src="{{url_for('static',filename='myimage.png')}}"></image></div>-->
-<div class ="xyx">
-    <div id=fom><p><strong>Heron Chambers</strong></p></div>
-    <p class="typ">Joined {{ date }}</p>
-    <div id="lom">
-    <p>Username: Heron Chambers</p>
-    <p>ID Number: 620045536</p>
-    <p>Age: 25</p>
-    <p>General: Male</p>
+<div class = container>
+    
+    <div class = topdiv>
+        <img src="{{url_for('static', filename='myimage.png')}}" />
+        <p>@herondc</p>
+        <p>Kingston, Jamaica</p>
+        <p>Joined {{ date }}</p>
+        
     </div>
-    <div><p class ="typ">I'm passionate about web devlopment</p>  </div>
+        <p>I'm passionate about web devlopment</p>
+        <p>Post: 7</p>
+        <p>Following: 100</p>
+        <p>Followers: 250</p>
+        <button type="button">Follow</button>
+    
+    <div>
+        
+    </div>
+    
 </div>
 
 
@@ -23,3 +32,14 @@
 
  
 {% endblock %}
+
+
+<!--<div id=fom><p><strong>Heron Chambers</strong></p></div>-->
+<!--    <p class="typ">Joined {{ date }}</p>-->
+<!--    <div id="lom">-->
+<!--    <p>Username: Heron Chambers</p>-->
+<!--    <p>ID Number: 620045536</p>-->
+<!--    <p>Age: 25</p>-->
+<!--    <p>General: Male</p>-->
+<!--    </div>-->
+<!--    <div><p class ="typ">I'm passionate about web devlopment</p>  </div>-->
